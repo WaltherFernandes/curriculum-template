@@ -1,1 +1,1 @@
-#A responsive curriculum template using CSS and HTML
+# A responsive curriculum template using CSS and HTML
