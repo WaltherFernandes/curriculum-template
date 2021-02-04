@@ -1,0 +1,219 @@
+/* Tablet 768px */
+@media screen and (max-width: 768px){
+    .container .h-habilities .item{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Experience */
+    .container .h-experience .h-items .item {
+        margin-top: 50px;
+    }
+
+    /* Education */
+    .container .h-education .item {
+        margin-top: 50px;
+    }
+}
+
+/* Mobile 550px */
+@media screen and (max-width: 550px){
+    .container .h-name {
+        margin-top: 10%;
+        margin-bottom: 50px;
+    }
+    .container .h-name h1 {
+        font-size: 28px;
+    }
+    .container .h-name h2 {
+        font-size: 22px;
+    }
+    /* About */
+    .container .h-about {
+        width: 100%;
+        min-height: 100px;
+        margin-bottom: 50px;
+    }
+    .container .h-about .h-title-about h2 {
+       margin-top: 5%;
+       font-size: 22px;
+    }
+    .container .h-about .paragraph {
+       font-size: 18px;
+    }
+    /* Experience */
+    .container .h-experience .h-title-experience h2 {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .container .h-experience .h-items .item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 120px;
+        margin-bottom: 50px;
+    }
+    .container .h-experience .h-items .item .work {
+        min-width: 100%;
+        min-height: 80px;
+    }
+    .container .h-experience .h-items .item .description {
+        min-width: 100%;
+        min-height: 100px;
+    }
+    .container .h-experience .h-items .item .description h2 {
+        margin-bottom: 20px;
+    }
+
+    /* Education */
+    .container .h-education .h-title-education {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .container .h-education .item {
+        margin-bottom: 50px;
+    }
+    .container .h-education .item .title {
+        margin-bottom: 20px;
+    }
+    .container .h-education .item .title h2 {
+        font-size: 22px;
+    }
+    .container .h-education .item .title span {
+        font-size: 22px;
+    }
+
+    /* Habilities */
+    .container .h-habilities .h-title-habilities h2 {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .container .h-habilities .item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Contact */
+    .container .h-contato .h-title-contact {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+}
+
+/* Mobile 375px */
+@media screen and (max-width: 375px){
+    .container .h-name {
+        margin-top: 10%;
+        margin-bottom: 50px;
+    }
+    .container .h-name h1 {
+        font-size: 28px;
+    }
+    .container .h-name h2 {
+        font-size: 22px;
+    }
+
+    /* About */
+    .container .h-about {
+        width: 100%;
+        min-height: 100px;
+        margin-bottom: 50px;
+    }
+    .container .h-about .h-title-about h2 {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .container .h-about .paragraph {
+        font-size: 18px;
+    }
+
+    /* Experience */
+    .container .h-experience .h-title-experience h2 {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .container .h-experience .h-items .item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 220px;
+        margin-bottom: 50px;
+    }
+    .container .h-experience .h-items .work {
+        min-width: 100%;
+        min-height: 80px;   
+    }
+    .container .h-experience .h-items .work h2 {
+        text-align: center;
+    }
+    .container .h-experience .h-items .work p {
+        text-align: center;
+    }
+    .container .h-experience .h-items .item .description {
+        width: 100%;
+        min-height: 100px;
+    }
+    .container .h-experience .h-items .item .description h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* Education */
+    .container .h-education .h-title-education h2 {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .container .h-education .item {
+        margin-bottom: 50px;
+    }
+    .container .h-education .item .title {
+        margin-bottom: 20px;
+    }
+    .container .h-education .item .title h2 {
+        font-size: 22px;
+    }
+    .container .h-education .item .title span {
+        font-size: 22px;
+    }
+
+    /* Habilities */
+    .container .h-habilities .h-title-habilities h2 {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .container .h-habilities .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;    
+    }
+    .container .h-habilities .item .title {
+        min-width: 100%;
+        margin-bottom: 10px;  
+    }
+    .container .h-habilities .item .icon {
+        width: 100%;
+    }
+    .container .h-habilities .item .icon .percentual-60{
+        width: 60%;
+    }
+    .container .h-habilities .item .icon .percentual-80{
+        width: 80%;
+    }
+    .container .h-habilities .item .icon .percentual-100{
+        width: 100%;
+    }
+
+    /* Contact */
+    .container .h-contato .h-title-contact h2 {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+}
